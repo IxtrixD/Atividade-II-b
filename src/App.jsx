@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ProjectCard from './components/ProjectCard';
 import './index.css'; 
 import fotoMiku from './assets/Miku.jpg';
+import fotoTeto from './assets/teto.jpg';
 
 const meusProjetos = [
   { id: 1, titulo: "Projeto 1 - UnitOdonto", descricao: "Um aplicativo para o agendamento de consultas em clinicas.", link: "https://github.com/IxtrixD/UnitOdonto" },
@@ -46,7 +47,7 @@ function App() {
         <section id="sobre">
             <h2>Sobre Mim</h2>
             <img
-              src={temaVermelho ? fotoMiku : fotoMiku}
+              src={temaVermelho ? fotoTeto : fotoMiku}
               alt={temaVermelho ? 'Foto Teto - tema vermelho' : 'Foto Miku - tema azul'}
             />
             <p>Meu nome é Cristhian Coelho, atualmente estudando sistemas para internet.</p>
