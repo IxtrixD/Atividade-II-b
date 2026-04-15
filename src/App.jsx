@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ProjectCard from './components/ProjectCard';
 import './index.css'; 
 import fotoMiku from './assets/Miku.jpg';
-import fotoTeto from './assets/teto.jpg';
+import fotoTeto from './assets/Teto.jpg';
 
 const meusProjetos = [
   { id: 1, titulo: "Projeto 1 - UnitOdonto", descricao: "Um aplicativo para o agendamento de consultas em clinicas.", link: "https://github.com/IxtrixD/UnitOdonto" },
